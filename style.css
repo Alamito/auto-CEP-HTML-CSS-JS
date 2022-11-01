@@ -91,7 +91,7 @@ input:disabled {
     text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
 }
 
-.title-Adress {
+.title-Address {
     margin: auto;
     grid-column: 1 / span 2;
     grid-row: 7;
@@ -106,7 +106,7 @@ input:disabled {
     grid-row: 6;
 }
 
-.adress {
+.address {
     grid-column: 1 / span 2;
     grid-row: 8;
 }
