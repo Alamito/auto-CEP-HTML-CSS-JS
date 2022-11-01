@@ -23,7 +23,7 @@ input:disabled {
     display: flex;
     height: 100vh;
     width: 100vw;
-    background: url(images/background-street.jpg);
+    background: url(../images/background-street.jpg);
     background-size: cover;
     justify-content: center;
     align-items: center;
