@@ -32,10 +32,10 @@ input:disabled {
 .grid-container {
     display: grid;
     width: 40%;
-    height: 40%;
+    height: 50%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    column-gap: 10px;
+    grid-template-rows: repeat(8, 1fr);
+    column-gap: 15px;
     border: 5px solid white;
     border-radius: 12px;
     padding: 10px;
@@ -83,7 +83,7 @@ input:disabled {
 
 .title-District {
     margin: auto;
-    grid-column: 1;
+    grid-column: 1 / span 2;
     grid-row: 5;
     color: white;
     font-weight: bold;
@@ -93,14 +93,20 @@ input:disabled {
 
 .title-Adress {
     margin: auto;
-    grid-column: 2;
-    grid-row: 5;
+    grid-column: 1 / span 2;
+    grid-row: 7;
     color: white;
     font-weight: bold;
     font-size: 3vh;
     text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
 }
 
-.district, .adress {
+.district {
+    grid-column: 1 / span 2;
     grid-row: 6;
+}
+
+.adress {
+    grid-column: 1 / span 2;
+    grid-row: 8;
 }
