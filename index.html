@@ -12,7 +12,18 @@
 </head>
 <body>
     <section id = "menu">
-
+        <div class="grid-container">
+            <label class ="title-CEP">CEP</label>
+            <input class="CEP" type = "text" onkeypress="return onlynumber();" inputmode="numeric" value="" placeholder="Ex: 96789-434">
+            <label class ="title-State">ESTADO</label>
+            <input class="state" type = "text" inputmode="numeric" value="" disabled="">
+            <label class ="title-City">CIDADE</label>
+            <input class="city" type = "text" inputmode="numeric" value="" disabled="">
+            <label class ="title-District">BAIRRO</label>
+            <input class="district" type = "text" inputmode="numeric" value="" disabled="">
+            <label class ="title-Adress">ENDEREÇO</label>
+            <input class="adress" type = "text" inputmode="numeric" value="" disabled="">
+        </div>
     </section>
 </body>
 <script src="script.js"></script>

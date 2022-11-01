@@ -3,4 +3,104 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+input {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    border: 0 none;
+    outline: 0;
+}
+
+input:disabled {
+  background: white;
+  color: black;
+}
+
+#menu {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: url(images/background-street.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    width: 40%;
+    height: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    column-gap: 10px;
+    border: 5px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    backdrop-filter: brightness(70%);
+}
+
+.title-CEP {
+    margin: auto;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.CEP {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.title-State {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 3;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.title-City {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 3;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.state, .city {
+    grid-row: 4;
+}
+
+.title-District {
+    margin: auto;
+    grid-column: 1;
+    grid-row: 5;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.title-Adress {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 5;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+.district, .adress {
+    grid-row: 6;
 }
