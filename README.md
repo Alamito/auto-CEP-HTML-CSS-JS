@@ -9,8 +9,33 @@ Projeto desenvolvido com o intuito de fortalecer meus conhecimentos sobre API RE
 
 Abaixo está representado visualmente o projeto:
 
+[.gif do prjeto]
+
+### Pontos importantes a serem levantados:
+- o hífen ("-") é inserido automaticamente a partir do 5º dígito.
+- usando copiar e colar para inserir o CEP, caso o 'paste' esteja sem o hífen, o mesmo será inserido.
+- ao ser inserido os nove dígitos do CEP, o código automaticamente irá buscar um CEP correspondente na API, ou seja, não é necessário apertar "ENTER" ou fazer algo nesse sentido.
+
+# 🧬 Tecnologias utilizadas 🧬
+
+- API de de consulta de CEP (fonte: https://apicep.com/api-de-consulta/)
+- HTML5
+- CSS3
+- JavaScript
+- Módulo Axios
 
 # ⏯ Como executar o projeto ⏯
+
+```bash
+# clonar repositório
+git clone https://github.com/Alamito/auto-CEP-HTML-CSS-JS.git
+
+# entrar no diretório
+cd "auto-CEP-HTML-CSS-JS"
+
+# executar 
+start index.html
+```
 
 # ✍️ Autor ✍️
 Alamir Bobroski Filho 
