@@ -9,7 +9,7 @@ Projeto desenvolvido com o intuito de fortalecer meus conhecimentos sobre API RE
 
 Abaixo está representado visualmente o projeto:
 
-[.gif do prjeto]
+![auto cep](https://user-images.githubusercontent.com/102616676/199545211-95d2f1fa-8d73-48c5-93b0-6fb0a9dd3c08.gif)
 
 ### Pontos importantes a serem levantados:
 - o hífen ("-") é inserido automaticamente a partir do 5º dígito.
